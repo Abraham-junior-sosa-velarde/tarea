@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANIMARKET</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <!--Styles css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- JAM icons -->
+  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+  
+</head>
+<body>
+
+    <!--Nav (logo and menu)-->
+    <div class="container-fluid cajita">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white row justify-content-between">
+            <div class="col-sm-12 col-md-12 col-lg-3">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+                NANIMARKET
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">INICIO <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sugerencias.html">SUGERENCIAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><span class="jam jam-facebook"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><span class="jam jam-twitter"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><span class="jam jam-whatsapp"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a  class="nav-link" href="#" target="_blank"><span class="jam jam-instagram"></span></a>
+                  </li>
+              </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!--Content-main-->
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 fotito">
+                <h1>SUGERENCIAS</h1>
+                <P>Si deseas algun producto y no lo tenemos puedes escribirlo y si sale como el mas votado el siguiente mes lo tendremos en nuestros productos</P>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h2 class="titulo-otro">PON EL PRODUCTO QUE DESEAS TENER</h2>
+                <h2 class="aviso estilo"></h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 contenee">
+                <form action="#">
+                    <textarea class="texto"name="textarea" id="" cols="80" rows="5"></textarea>
+                    <br>
+                    <input class="llenar boton"type="button" value="SUGERIR">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--sugerencias-->
+    <section>
+                <ul class="container ul-llenar">
+                    <div class="row sugerencia">
+                        <div class="col-lg-6">
+                            <li>
+                                audifonos sony rj45
+                            </li>
+                        </div>
+                        <div class="col-lg-2">
+                          <p>5</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <button><span class="jam jam-user-plus"></span></button>
+                        </div>
+                        <div class="col-lg-2">
+                            <button><span class="jam jam-user-minus"></span></button>
+                        </div>
+                    </div>
+                    <div class="row sugerencia">
+                      <div class="col-lg-6">
+                          <li>
+                              mancuernas 345 10kg
+                          </li>
+                      </div>
+                      <div class="col-lg-2">
+                        <p>5</p>
+                      </div>
+                      <div class="col-lg-2">
+                          <button><span class="jam jam-user-plus"></span></button>
+                      </div>
+                      <div class="col-lg-2">
+                          <button><span class="jam jam-user-minus"></span></button>
+                      </div>
+                  </div>
+                  
+                </ul>
+    </section>
+</main>
+
+
+</body>
+<!--Script jquery-->
+<script src="./bootstrap/jquery.min.js"></script>
+<!--script pooper-->
+<script src="./bootstrap/popper.min.js"></script>
+<!--Script bootstrap-->
+<script src="./bootstrap/bootstrap.min.js"></script>
+<!--script-->
+<script src="./script/script.js"></script>
+</html>

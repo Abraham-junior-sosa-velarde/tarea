@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(253, 252, 250);
+}
+.contenedor{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.columna{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+.imagens{
+    height: 400px;
+    border-radius: 10px 10px;
+}
+.micontenido{
+    background-color: rgba(211, 12, 12, 0.801);
+    padding: 20px 30px;
+}
+.titulo{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+.contenedor-titulo{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: auto;
+    padding-right: auto;
+}
+.contenido-titulo{
+    font-size: 1.5rem;
+    color: wheat;
+}
+.boton{
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: 20px 20px;
+}
+.boton a{
+    text-decoration:none;
+    color: red;
+    font-size: 1.5rem;
+}
+.fila h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.jamus{
+    color:rgba(235, 14, 14, 0.801);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.icono{
+    text-align: center;
+}
+.footer{
+    margin-top: 5rem;
+    text-align: center;
+}
+.cajita{
+    box-shadow: .5px .5px 6px black;
+}
+.contenido-2{
+    padding-top: 3rem;
+    background-color:  rgba(211, 12, 12, 0.801);
+}
+.librito{
+    text-align: center;
+}
+.librito img{
+    height: 180px;
+    width: 460px;
+}
+.librito h3{
+font-size: 2.5rem;
+font-weight: 1000;
+color:  rgba(211, 12, 12, 0.801);
+}
+.librito p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:  rgba(211, 12, 12, 0.801);
+}
+.librote{
+    border-radius: 20px 20px;
+}
+.librito2{
+    text-align: center;
+}
+.librito2 img{
+    height: 250px;
+    width: 460px;
+}
+.librito2 h3{
+font-size: 2.5rem;
+font-weight: 1000;
+color:  rgba(211, 12, 12, 0.801);
+}
+.librito2 p{
+    font-size: 1.3rem;
+}
+.titulo-h3{
+    color:rgba(211, 12, 12, 0.801);
+    font-size: 3rem;
+    font-weight: 1000;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.tarjetas{
+    margin-bottom: 2rem;
+}
+.fotito
+{
+    background-image: url("../img/fondoConsultas.jpg");
+    background-color: rgba(211, 12, 12, 0.801); 
+  background-blend-mode: multiply; 
+    background-size:cover;
+    height: 350px;
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+}
+.fotito h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.fotito p{
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.titulo-otro{
+    color: rgba(211, 12, 12, 0.801);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.contenee{
+text-align: center;
+}
+.llenar{
+    background-color: rgba(211, 12, 12, 0.801);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-top:3rem;
+}
+.contener-sug{
+    background-color: rgba(211, 12, 12, 0.801);
+
+}
+.sugerencia{
+    background-color: rosybrown;
+    border-bottom: 3px solid black;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px 15px;
+}
+.sugerencia div{
+    text-align: center;
+    list-style:none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.sugerencia div button{
+    font-size: 1.5rem;
+    padding: 0; 
+border: none; 
+background: none;
+}
+.sugerencia:nth-child(even){
+    background-color: white;
+    color: rgba(211, 12, 12, 0.801);
+}
+.estilo{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+    box-shadow: 1px 1px 4px black;
+    text-align: center;
+}
